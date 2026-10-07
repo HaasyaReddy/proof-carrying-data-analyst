@@ -104,3 +104,65 @@ proof-carrying-data-analyst/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+File Description
+
+app.py
+
+Main Streamlit application and user interface.
+
+data_analyzer.py
+
+Handles dataset loading, profiling and data-quality/trap detection.
+
+data/
+
+Contains the sample datasets used for analysis and demonstration.
+
+requirements.txt
+
+Contains the Python dependencies required to run the project.
+Dataset Description
+sales_data.csv
+
+Contains sales-related information such as:
+
+Order ID
+Product
+Category
+Quantity
+Price
+Region
+Order Date
+products.csv
+
+Contains product information such as:
+
+Product ID
+Product
+Category
+customers.csv
+
+Contains customer information such as:
+
+Customer ID
+Customer Name
+Region
+
+The datasets are intentionally suitable for demonstrating data analysis and data-quality checks.
+How to Use
+Start the application.
+Enter a question related to the available datasets.
+The AI agent analyzes the question.
+The system examines the available data.
+Python/Pandas analysis code is generated.
+The code is executed.
+The result is verified.
+The application displays the answer and supporting proof.
+
+
+### One important thing before you commit
+
+I intentionally **did not put a specific model name** in the README, because your implementation/model choice has changed during development. Once your final model is fixed, we should change this line:
+
+```text
+- **AI/LLM Model** – Natural-language understanding and analysis planning
